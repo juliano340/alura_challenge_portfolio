@@ -4,82 +4,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juliano Pereira - Portifolio</title>
-    <link rel="stylesheet" href="styles.css">
-
+    <title>Juliano Pereira - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-    <!-- Cabeçalho -->
     <header>
-        <h1>Olá, meu nome é Juliano Pereira e eu sou desenvolvedor.</h1>
-        <p>Descrição breve...</p>
-        <!-- Links para redes sociais e GitHub -->
-        <!-- ... -->
+        <h1>Juliano Pereira</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Sobre mim</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Hobbies</a></li>
+                <li><a href="#">Formacão</a></li>
+                <li><a href="#">Projetos</a></li>
+                <li><a href="#"><b>juliano340@gmail.com</b></a></li>
+            </ul>
+        </nav>
     </header>
 
-    <!-- Sobre mim -->
-    <section id="sobre-mim">
-        <h2>Sobre mim</h2>
-        <p>Texto sobre mim...</p>
-        <img src="caminho-para-imagem-de-assinatura" alt="Assinatura de Fulana de Tal">
+    <section id="apresentacao">
+        <div>
+            <h1>Olá! Eu sou o Juliano!</h1>
+            <h2>Programador front-end!</h2>
+            <h3 class="roboto-light" id="txtSobre">Sou formado em Marketing, estudante de Sistemas para Internet e atualmente 
+                estou participando do projeto <b>Oracle ONE</b> na <b>Alura</b>.
+            </h3>
+            <div>
+                <a class="links" href="https://github.com/juliano340">Github <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a class="links" href="https://www.linkedin.com/in/juliano340/">Linkedin <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a class="links" href="https://www.instagram.com/juliano340/">Instagram <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a class="links" href="">Currículo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div>
+            <img id="img" src="https://github.com/juliano340.png" alt="">
+            <script src="https://kit.fontawesome.com/0934ea43d0.js" crossorigin="anonymous"></script>
+        </div>
+
+        
+    </section>
+    
+    <section id="sectionSobre">
+        <div class="sobre">
+            
+            <h1>Sobre mim</h1>
+            <p>Olá! Sou Juliano, 39 anos, formado em Marketing. Possuo um MBA em Gestão Econômica e Marketing Digital. Atualmente sou estudante de Sistemas para Internet na UNISINOS e atuo como assistente de testes na Dataweb. Já trabalhei como programador web na Agexcom. Se você tiver alguma dúvida ou precisar de ajuda, fique à vontade para entrar em contato comigo!</p>
+    
+        </div>
+        
     </section>
 
-    <!-- Habilidades -->
-    <section id="skills">
-        <h2>Skills</h2>
-        <!-- Lista de habilidades -->
-        <!-- ... -->
-    </section>
-
-    <!-- Hobbies -->
-    <section id="hobbies">
-        <h2>Hobbies</h2>
-        <!-- Ícones ou imagens para hobbies -->
-        <!-- ... -->
-    </section>
-
-    <!-- Formação acadêmica -->
-    <section id="formacao">
-        <h2>Formação acadêmica</h2>
-        <!-- Detalhes da formação -->
-        <!-- ... -->
-    </section>
-
-    <!-- Experiência profissional -->
-    <section id="experiencia">
-        <h2>Experiência profissional</h2>
-        <!-- Detalhes da experiência -->
-        <!-- ... -->
-    </section>
-
-    <!-- Projetos -->
-    <section id="projetos">
-        <h2>Projetos</h2>
-        <!-- Projetos com links para repositórios e demos -->
-        <!-- ... -->
-    </section>
-
-    <!-- Contato -->
-    <section id="contato">
-        <h2>Contato</h2>
-        <form action="servidor-de-processamento" method="post">
-            <input type="text" name="nome" placeholder="Nome">
-            <input type="email" name="email" placeholder="E-mail">
-            <input type="text" name="assunto" placeholder="Assunto">
-            <textarea name="mensagem" placeholder="Mensagem"></textarea>
-            <button type="submit">Enviar mensagem</button>
-        </form>
-    </section>
-
-    <!-- Rodapé -->
-    <footer>
-        <p>Desenvolvido por Fulana de Tal © 2024</p>
-    </footer>
-
-
-    <script src="scripts.js"></script>
 </body>
 
 </html>
