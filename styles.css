@@ -1,6 +1,7 @@
 * {
   font-family: Roboto;
   color: #464646;
+  box-sizing: border-box;
 }
 
 body {
@@ -83,11 +84,11 @@ header {
 
 
 .sectionSkills {
-  margin-top: 0px;
-  padding-top: 25px;
+  
+  padding-top: 150px;
   padding-left: 150px;
   padding-right: 150px;
-  padding-bottom: 25px;
+  padding-bottom: 150px;
   height: 200px;
   display: flex;
   flex-direction: column;
@@ -132,11 +133,10 @@ header {
 }
 
 .sectionHobbies {
-  margin-top: 0px;
-  padding-top: 25px;
+  padding-top: 100px;
   padding-left: 150px;
   padding-right: 150px;
-  padding-bottom: 50px;
+  padding-bottom: 200px;
   height: 200px;
   display: flex;
   flex-direction: column;
@@ -216,37 +216,31 @@ header {
 }
 
 .sectionProjetos {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
   display: flex;
-  width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-left: 150px;
-  padding-right: 150px;
-  margin-top: 50px;
-margin-bottom: 50px;
-
 }
 
 .containerProj1 {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 50px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-
-}
-
-.containerProj1 img {
-  height: 50%;
-  width: 50%;
-}
-
-.containerProj1 div {
-
+  flex-direction: row;
   width: 100%;
+  justify-content: space-between;
 }
+
+.projDescricao {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .sectionContato {
   background-color: #EAF2FD;
@@ -270,9 +264,7 @@ margin-bottom: 50px;
   padding-left: 30px;
 }
 
-.containerForm h1, h3 {
-  padding-left: 30px;
-}
+
 .containerForm form input, textarea {
   
   margin-bottom: 10px;
@@ -281,7 +273,9 @@ margin-bottom: 50px;
   padding: 5px;
 }
 
-
+.containerForm h1, .containerForm h3 {
+  margin-left: 30px;
+}
 
 
 .roboto-thin {
