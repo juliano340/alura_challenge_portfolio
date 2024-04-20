@@ -223,6 +223,8 @@ header {
   align-items: center;
   padding-left: 150px;
   padding-right: 150px;
+  margin-top: 50px;
+margin-bottom: 50px;
 
 }
 
@@ -232,12 +234,18 @@ header {
   justify-content: space-between;
   gap: 50px;
   margin-top: 50px;
+  margin-bottom: 50px;
 
 }
 
 .containerProj1 img {
   height: 50%;
   width: 50%;
+}
+
+.containerProj1 div {
+
+  width: 100%;
 }
 
 .sectionContato {
