@@ -1,144 +1,349 @@
 * {
-    font-family: Roboto;
+  font-family: Roboto;
+  color: #464646;
 }
 
 body {
-    margin: 0 ;
-    
-    padding: 0;
+  margin: 0;
+
+  padding: 0;
 }
 
 ul {
-    list-style: none;
-    display: flex;
-    gap: 0.8rem;
+  list-style: none;
+  display: flex;
+  gap: 0.8rem;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: #464646;
 }
 
 
 header {
-    padding: 0 150px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+  height: 100px;
+  padding: 0 150px 50px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
 }
 
 #img {
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
 
-  }
+}
 
-#apresentacao{
-    padding: 0 150px;
-    display: flex;
+#apresentacao {
+  padding: 0 150px;
+  display: flex;
 }
 
 .links:not(:first-child) {
-    gap: 20px;
-    margin-left: 30px;
+  gap: 20px;
+  margin-left: 30px;
+}
+
+#typeString {
+  font-size: 40px;
+  padding-bottom: 25px;
+
 }
 
 #txtSobre {
-    max-width: 60%;
+  max-width: 60%;
 }
-
 
 
 .sobre {
-    background-color: #eaf2fd ;
-    min-height: 200px;
-    display: flex;
-    align-items: start;
-    flex-direction: column;
-    justify-content: center;
-    padding: 50px;
-    margin-top: 50px;
+  background-color: #eaf2fd;
+  min-height: 200px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px 0;
+  margin-top: 50px;
 }
 
 #sectionSobre {
-    padding: 0 150px;
-    background-color: #eaf2fd;
+  padding: 0 150px;
+  background-color: #eaf2fd;
 }
 
+
+.sectionSkills {
+  margin-top: 0px;
+  padding-top: 25px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 25px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F5F5F5;
+}
+
+.divSkills {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.divSkills .card {
+  height: 150px;
+  width: 150px;
+  margin-left: 20px;
+  background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  border-radius: 5px;
+
+}
+
+.card p {
+  margin: 0px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-size: 10px;
+  font-weight: bold;
+
+}
+
+
+.card i {
+  color: #2A7AE4;
+  margin: 0px;
+  padding-left: 10px;
+
+}
+
+.sectionHobbies {
+  margin-top: 0px;
+  padding-top: 25px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 50px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F5F5F5;
+}
+
+.divHobbies {
+  display: flex;
+  justify-content: center;
+
+}
+
+.divHobbies .card {
+  height: 100px;
+  width: 100px;
+  margin-left: 20px;
+  background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  border-radius: 5px;
+
+}
+
+.sectionFormacao {
+  background-color: #EAF2FD;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  
+}
+
+
+.divFormacao {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;  
+  margin: 0px;  
+}
+
+.cardFormacao {
+ background-color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 300px;
+  border-radius:  5px;
+}
+
+.cardFormacao img {
+  height: 303;
+  width: 250px;
+}
+
+.btn1 {
+  padding: 20px;
+  
+  color: #2A7AE4;
+  border-radius: 5px;
+  border: solid 1px #2A7AE4;
+}
+
+.btn2 {
+  padding: 20px;
+  background-color: #2A7AE4;
+  color: #FFF;
+  border-radius: 5px;
+  border: solid 1px #2A7AE4;
+}
+
+.sectionProjetos {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 150px;
+  padding-right: 150px;
+
+}
+
+.containerProj1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  margin-top: 50px;
+
+}
+
+.containerProj1 img {
+  height: 50%;
+  width: 50%;
+}
+
+.sectionContato {
+  background-color: #EAF2FD;
+  display: flex;
+  padding: 100px 150px;
+}
+
+.containerForm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.containerForm form {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: start;
+  height: 100%;
+  width: 100%;
+  padding-left: 30px;
+}
+
+.containerForm h1, h3 {
+  padding-left: 30px;
+}
+.containerForm form input, textarea {
+  
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px;
+}
 
 
 
 
 .roboto-thin {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-  }
-  
-  .roboto-light {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .roboto-regular {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .roboto-medium {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .roboto-bold {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .roboto-black {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-  
-  .roboto-thin-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: italic;
-  }
-  
-  .roboto-light-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .roboto-regular-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .roboto-medium-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-  }
-  
-  .roboto-bold-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
-  .roboto-black-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-style: italic;
-  }
-  
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}

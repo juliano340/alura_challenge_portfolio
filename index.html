@@ -10,13 +10,17 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
     <header>
-        <h1>Juliano Pereira</h1>
+        <div class="logo">
+            <i class="fa-solid fa-code fa-2x"></i>
+            <h1>Juliano Pereira</h1>
+
+        </div>
         <nav>
             <ul>
                 <li><a href="#">Sobre mim</a></li>
@@ -31,35 +35,223 @@
 
     <section id="apresentacao">
         <div>
-            <h1>Olá! Eu sou o Juliano!</h1>
-            <h2>Programador front-end!</h2>
-            <h3 class="roboto-light" id="txtSobre">Sou formado em Marketing, estudante de Sistemas para Internet e atualmente 
-                estou participando do projeto <b>Oracle ONE</b> na <b>Alura</b>.
+
+            <div id="typeString"></div>
+
+
+            <h3 class="roboto-light" id="txtSobre">Gaúcho com formação
+                em Marketing, estudante de Sistemas para Internet e
+                atualmente estou participando do projeto <span style="color: #27ae60;font-weight: bold;">Oracle
+                    ONE</span> na <a href="https://www.alura.com.br">Alura</a> </b>.
+
             </h3>
             <div>
-                <a class="links" href="https://github.com/juliano340">Github <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                <a class="links" href="https://www.linkedin.com/in/juliano340/">Linkedin <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                <a class="links" href="https://www.instagram.com/juliano340/">Instagram <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a class="links" href="https://github.com/juliano340" target="_blank">Github <i
+                        class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a class="links" href="https://www.linkedin.com/in/juliano340/" target="_blank">Linkedin <i
+                        class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a class="links" href="https://www.instagram.com/juliano340/" target="_blank">Instagram <i
+                        class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 <a class="links" href="">Currículo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
             </div>
         </div>
         <div>
             <img id="img" src="https://github.com/juliano340.png" alt="">
-            <script src="https://kit.fontawesome.com/0934ea43d0.js" crossorigin="anonymous"></script>
+
         </div>
 
-        
+
     </section>
-    
+
     <section id="sectionSobre">
         <div class="sobre">
-            
+
             <h1>Sobre mim</h1>
-            <p>Olá! Sou Juliano, 39 anos, formado em Marketing. Possuo um MBA em Gestão Econômica e Marketing Digital. Atualmente sou estudante de Sistemas para Internet na UNISINOS e atuo como assistente de testes na Dataweb. Já trabalhei como programador web na Agexcom. Se você tiver alguma dúvida ou precisar de ajuda, fique à vontade para entrar em contato comigo!</p>
-    
+            <p>Olá! Sou Juliano, com formação em Marketing, possuo um MBA em Gestão Comercial e Marketing Digital.
+                Sou estudante de Sistemas para Internet na UNISINOS e atuo como assistente de testes na
+                Dataweb. Fiz estágio como programador web na Agexcom da Unisinos. Se você tiver alguma dúvida ou
+                precisar de ajuda,
+                fique à vontade para entrar em contato comigo!</p>
+
+        </div>
+
+    </section>
+
+    <section class="sectionSkills">
+
+        <h1>Skills</h1>
+
+        <div class="divSkills">
+
+            <div class="card">
+                <i class="fa-brands fa-html5 fa-2x"></i>
+                <p>HTML 5</p>
+            </div>
+            <div class="card">
+                <i class="fa-brands fa-css3 fa-2x"></i>
+                <p>CSS</p>
+            </div>
+            <div class="card">
+                <i class="fa-brands fa-js fa-2x"></i>
+                <p>Javascript</p>
+            </div>
+            
+            <div class="card">
+                <i class="fa-brands fa-node-js fa-2x"></i>
+                <p>Node JS</p>
+            </div>
+            <div class="card">
+                <i class="fa-brands fa-react fa-2x"></i>
+                <p>React</p>
+            </div>
+            
+            <div class="card">
+                <i class="fa-brands fa-php fa-2x"></i>
+                <p>PHP</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="sectionHobbies">
+
+        <h1>Hobbies</h1>
+
+        <div class="divSkills">
+
+            <div class="card">
+                <i class="fa-solid fa-person-running fa-2x"></i>
+                <p>Correr</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-futbol fa-2x"></i>
+                <p>Futebol</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-dumbbell fa-2x"></i>
+                <p>Musculação</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-passport fa-2x"></i>
+                <p>Viagens</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-champagne-glasses fa-2x"></i>
+                <p>Festas</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-headphones fa-2x"></i>
+                <p>Música</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="sectionFormacao">
+
+        <h1>Formação acadêmica</h1>
+
+
+        <div class="divFormacao">
+
+            <div>
+                <div class="cardFormacao">
+                    <img src="https://www.unisinos.br/images/unisinos-p.png" alt="Uninter">
+                </div>
+                <h4 style="margin-bottom: 5px;">Sistemas para Internet</h4>
+                <p style="margin-top: 5px;">Unisinos - Atualmente</p>
+            </div>
+
+            <div>
+                <div class="cardFormacao">
+                    <img src="https://logodownload.org/wp-content/uploads/2020/02/uninter-logo.png" alt="Uninter">
+                </div>
+                <h4 style="margin-bottom: 5px;">MBA em Gestão Comercial e Marketing Digital</h4>
+                <p style="margin-top: 5px;">Uninter - 2019</p>
+            </div>
+            
+
+            <div>
+                <div class="cardFormacao">
+                    <img src="https://logodownload.org/wp-content/uploads/2020/02/uninter-logo.png" alt="Uninter">
+                </div>
+                <h4 style="margin-bottom: 5px;">Tecnologia em Marketing</h4>
+                <p style="margin-top: 5px;">Uninter - 2018</p>
+            </div>             
+        </div>
+    </section>
+
+
+    <section class="sectionProjetos">
+
+        <h1>Projetos</h1>
+
+        <div class="containerProj1">
+            
+                <img style="border-radius: 10px;" src="./img/codificador.png" alt="">
+            
+            <div>
+                <h3 style="margin-bottom: 5px;">Decodificador de texto</h3>
+                <p style="margin-top: 5px;">Challenge Alura Codidificador</p>
+                <br>
+                <div>
+                    <a class="btn1" target="_blank" href="https://github.com/juliano340/challenge_iniciante_programacao">Repositório</a>
+                    <a class="btn2" target="_blank" href="https://juliano340.github.io/challenge_iniciante_programacao/">Ver demo</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="sectionContato">
+        <img src="./img/contact.jpg" style="height: 400px; height: 400px;" alt="Contato">
+        
+        <div class="containerForm">
+            <h1>Contato</h1>
+            <h3>Fale comigo</h3>
+            <form>
+                <input type="text" placeholder="Nome">
+                <input type="email" placeholder="Email">
+                <input type="text" placeholder="Assunto">
+                <textarea name="" id="" cols="70" rows="10" placeholder="Mensagem"></textarea>
+                <input type="submit" value="Enviar">
+            </form>
         </div>
         
     </section>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://kit.fontawesome.com/0934ea43d0.js" crossorigin="anonymous"></script>
+    <script>
+        var app = document.getElementById('typeString');
+
+        var typewriter = new Typewriter(app, {
+            loop: true,
+            delay: 75,
+
+        });
+
+        typewriter
+            .pauseFor(100)
+            .typeString('Olá, meu nome é Juliano!')
+            .pauseFor(100)
+            .typeString('<strong> Eu sou um <span style="color: #27ae60;">Desenvolvedor Web.</span></strong>')
+            .typeString(' <br> <strong>Eu amo <span style="color: #27ae60;">Programar!</span></strong>')
+            .pauseFor(3500)
+            .start();
+    </script>
+
+
 
 </body>
 
